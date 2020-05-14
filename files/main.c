@@ -3,6 +3,5 @@
 #include <main.h>
 
 int main(){
-//Var
-	
+
 }
