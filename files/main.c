@@ -1,11 +1,8 @@
 //Snippet for C file, Luca Ruperto
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-
+#include <main.h>
 
 int main(){
 //Var
-puts("Hello World");
+	
 }
