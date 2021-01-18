@@ -12,7 +12,7 @@ void print_image(FILE *fptr)
 
 void welcome()
 {
-	char *filename = "/mnt/c/Users/lukel/Documents/GitHub/pwgen/files/img/welcome.txt";
+	char *filename = "files/img/welcome.txt";
 	FILE *fptr = NULL;
 
 	if ((fptr = fopen(filename, "r")) == NULL)

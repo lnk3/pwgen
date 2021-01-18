@@ -5,7 +5,7 @@ CFLAGS = -Wall
 # For libraries
 LDFLAGS = 
 
-OBJFILES = main.o interface.o
+OBJFILES = files/main.o files/interface.o
 
 # Name of program
 TARGET = pwgen
@@ -13,7 +13,7 @@ TARGET = pwgen
 all : $(TARGET)
 
 $(TARGET) : $(OBJFILES)
-	$(CC) $(FLAGS) -o executables/$(TARGET) files/$(OBJFILES) $(LDFLAGS)
+	$(CC) $(FLAGS) -o executables/$(TARGET) $(OBJFILES) $(LDFLAGS)
 
 clean :
 	rm -f $(OBJFILES) $(TARGET) *~
