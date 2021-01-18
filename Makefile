@@ -1,3 +1,4 @@
 program:
-	gcc files/main.c -o executables/progr
+	clear
+	gcc files/*.c -o executables/progr
 	./executables/progr
